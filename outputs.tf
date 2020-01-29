@@ -1,4 +1,4 @@
 output "vpc_id" {
-  description = "VPC ID"
-  value       = module.vpc.aws_vpc.this.id
+  description = "The ID of the VPC"
+  value       = concat(aws_vpc.this.*.id, [""])[0]
 }
