@@ -1,1 +1,4 @@
+variable "region" {
+  description = "Region"
+}
 
