@@ -1,2 +1,2 @@
 version="v2"
-root-modules = ["."]
+root-modules = ["terraform-*"]
