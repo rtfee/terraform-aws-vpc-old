@@ -9,7 +9,7 @@ module "vpc" {
   cidr = var.cidr
 
   azs             = ["us-east-1a", "us-east-1b"]
-  private_subnets = ["10.0.10.0/24", "10.0.11.0/24", "10.0.12.0/24"]
+  private_subnets = ["10.0.10.0/24", "10.0.11.0/24"]
 
   enable_nat_gateway = false
   enable_vpn_gateway = false
